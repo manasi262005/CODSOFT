@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e0e0e0;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.light-theme {
+  background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+  color: #333;
+}
+
+.wrapper {
+  display: flex;
+  gap: 30px;
+  padding: 25px;
+  background: rgba(18, 18, 18, 0.9);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+}
+
+body.light-theme .wrapper {
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.display {
+  width: 100%;
+}
+
+#inputBox {
+  width: 320px;
+  padding: 25px;
+  font-size: 32px;
+  border: none;
+  background: #252540;
+  color: #fff;
+  text-align: right;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.3);
+  transition: background 0.3s, color 0.3s;
+}
+
+body.light-theme #inputBox {
+  background: #e8ecef;
+  color: #333;
+}
+
+.theme-toggle {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(145deg, #2a2a45, #21213a);
+  border-radius: 34px;
+  transition: 0.4s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8px;
+}
+
+body.light-theme .slider {
+  background: linear-gradient(145deg, #ffffff, #e0e0e0);
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background: #ff8e53;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+
+body.light-theme .slider:before {
+  background: #007bff;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider .icon {
+  font-size: 18px;
+  color: #e0e0e0;
+}
+
+body.light-theme .slider .icon {
+  color: #333;
+}
+
+.slider .sun {
+  opacity: 0;
+}
+
+body.light-theme .slider .sun {
+  opacity: 1;
+}
+
+.slider .moon {
+  opacity: 1;
+}
+
+body.light-theme .slider .moon {
+  opacity: 0;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 75px);
+  gap: 12px;
+}
+
+.btn {
+  width: 75px;
+  height: 75px;
+  font-size: 22px;
+  border: none;
+  border-radius: 15px;
+  background: linear-gradient(145deg, #2a2a45, #21213a);
+  color: #e0e0e0;
+  cursor: pointer;
+  transition: transform 0.1s, background 0.2s;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+body.light-theme .btn {
+  background: linear-gradient(145deg, #ffffff, #e0e0e0);
+  color: #333;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(145deg, #3a3a5a, #2c2c4a);
+}
+
+body.light-theme .btn:hover {
+  background: linear-gradient(145deg, #f0f0f0, #d0d0d0);
+}
+
+.operator {
+  color: #00d4ff;
+}
+
+body.light-theme .operator {
+  color: #007bff;
+}
+
+.equal {
+  background: linear-gradient(145deg, #ff6b6b, #ff8e53);
+  color: #fff;
+}
+
+body.light-theme .equal {
+  background: linear-gradient(145deg, #ff8787, #ffa07a);
+}
+
+.equal:hover {
+  background: linear-gradient(145deg, #ff8e53, #ff6b6b);
+}
+
+body.light-theme .equal:hover {
+  background: linear-gradient(145deg, #ffa07a, #ff8787);
+}
+
+.history {
+  width: 280px;
+  max-height: 500px;
+  overflow-y: auto;
+  padding: 15px;
+  border-radius: 12px;
+  background: rgba(30, 30, 47, 0.8);
+}
+
+body.light-theme .history {
+  background: rgba(248, 249, 250, 0.8);
+}
+
+.history h2 {
+  margin-bottom: 15px;
+  color: #00ffb2;
+  font-size: 24px;
+}
+
+body.light-theme .history h2 {
+  color: #28a745;
+}
+
+#clearHistory {
+  background: #ff4d4d;
+  border: none;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background 0.2s;
+}
+
+#clearHistory:hover {
+  background: #ff6666;
+}
+
+#historyList {
+  list-style: none;
+}
+
+#historyList li {
+  padding: 10px;
+  margin-bottom: 8px;
+  background: #2a2a45;
+  border-left: 4px solid #ff8e53;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: background 0.2s;
+}
+
+body.light-theme #historyList li {
+  background: #e9ecef;
+  border-left-color: #ff6b6b;
+}
