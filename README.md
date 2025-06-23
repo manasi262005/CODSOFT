@@ -32,7 +32,7 @@ CODSOFT believes in the power of leadership and its ability to drive positive ch
 A responsive landing page built using **HTML** and **CSS**, focused on layout, sectioning, and visual creativity.
 
 > **Skills Used**: HTML, CSS  
-> [Live Demo](#) | [Source Code](./CODSOFT/task%201%20landing%20page)
+> [Live Demo](#) | [Source Code](https://github.com/manasi262005/CODSOFT/tree/main/task%201%20landing%20page)
 
 ---
 
@@ -41,7 +41,7 @@ A responsive landing page built using **HTML** and **CSS**, focused on layout, s
 A personal portfolio built using **React + TypeScript (.tsx)**, styled with **CSS**, and structured using standard **HTML elements** inside components.
 
 > **Tech Stack**: React, TypeScript (.tsx), CSS, HTML  
-> [Live Demo](#) | [Source Code](./CODSOFT/task%202%20portfolio)
+> [Live Demo](#) | [Source Code](https://github.com/manasi262005/CODSOFT/tree/main/task%203%20calculator)
 
 ---
 
