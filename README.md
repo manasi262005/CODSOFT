@@ -50,7 +50,7 @@ A personal portfolio built using **React + TypeScript (.tsx)**, styled with **CS
 A functional calculator capable of basic arithmetic operations, built with **HTML**, **CSS**, and **JavaScript** using DOM manipulation.
 
 > **Skills Used**: HTML, CSS, JavaScript (DOM, Events)  
-> [Live Demo](#) | [Source Code](./CODSOFT/task%203%20calculator)
+> [Live Demo](#) | [Source Code](https://github.com/manasi262005/CODSOFT/tree/main/task%203%20calculator)
 
 ---
 
