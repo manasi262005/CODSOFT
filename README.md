@@ -47,9 +47,9 @@ A personal portfolio built using React + TypeScript, styled with **CSS**, and st
 
 ### ✅ Task 3: Calculator App
 
-A functional calculator capable of basic arithmetic operations, built with **HTML**, **CSS**, and **JavaScript** using DOM manipulation.
+A functional calculator capable of basic arithmetic operations, built with **HTML**, **CSS**.
 
-> **Skills Used**: HTML, CSS, JavaScript (DOM, Events)  
+> **Skills Used**: HTML, CSS
 > [Live Demo](#) | [Source Code](https://github.com/manasi262005/CODSOFT/tree/main/task%203%20calculator)
 
 ---
