@@ -32,7 +32,7 @@ CODSOFT believes in the power of leadership and its ability to drive positive ch
 A responsive landing page built using **HTML** and **CSS**, focused on layout, sectioning, and visual creativity.
 
 **Skills Used**: HTML, CSS  
-[Live Demo](#) | [Source Code](https://github.com/manasi262005/CODSOFT/tree/main/task%201%20landing%20page)
+[Live Demo](https://youtu.be/vYTMU-jenzw?si=6-6D0eORJzAQ-Y6z) | [Source Code](https://github.com/manasi262005/CODSOFT/tree/main/task%201%20landing%20page)
 
 ---
 
