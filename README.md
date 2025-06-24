@@ -41,7 +41,7 @@ A responsive landing page built using **HTML** and **CSS**, focused on layout, s
 A personal portfolio built using **React + TypeScript**, styled with **CSS**, and structured using standard **HTML elements** inside `.tsx` components.
 
 **Tech Stack**: React, TypeScript, CSS, HTML  
-[Live Demo](#) | [Source Code](https://github.com/manasi262005/CODSOFT/tree/main/task%202%20portfolio)
+[Live Demo](https://youtu.be/3DlQCgpdMhs?si=zAJZXlbxcbl44R5G) | [Source Code](https://github.com/manasi262005/CODSOFT/tree/main/task%202%20portfolio)
 
 ---
 
@@ -50,7 +50,7 @@ A personal portfolio built using **React + TypeScript**, styled with **CSS**, an
 A functional calculator capable of basic arithmetic operations, built using **HTML**, **CSS**, and **JavaScript**.
 
 **Skills Used**: HTML, CSS, JavaScript  
-[Live Demo](#) | [Source Code](https://github.com/manasi262005/CODSOFT/tree/main/task%203%20calculator)
+[Live Demo](https://youtu.be/BX4dyWNHsZk?si=O4wzmJaLSBN0Fjez) | [Source Code](https://github.com/manasi262005/CODSOFT/tree/main/task%203%20calculator)
 
 ---
 
