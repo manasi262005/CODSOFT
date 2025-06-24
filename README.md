@@ -41,7 +41,7 @@ A responsive landing page built using **HTML** and **CSS**, focused on layout, s
 A personal portfolio built using **React + TypeScript**, styled with **CSS**, and structured using standard **HTML elements** inside `.tsx` components.
 
 **Tech Stack**: React, TypeScript, CSS, HTML  
-[Live Demo](https://youtu.be/3DlQCgpdMhs?si=zAJZXlbxcbl44R5G) | [Source Code](https://github.com/manasi262005/CODSOFT/tree/main/task%202%20portfolio)
+[Live Demo](https://youtu.be/3DlQCgpdMhs?si=zAJZXlbxcbl44R5G) | [Source Code](https://github.com/manasi262005/CODSOFT/tree/main/task%202%20Portfolio)
 
 ---
 
